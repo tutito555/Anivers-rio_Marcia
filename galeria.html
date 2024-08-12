@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Marcia Martins</title>
+    <style>
+        body {
+            background-color: blueviolet; /* Cor de fundo da página */
+            color: lightyellow; /* Cor do texto */
+            margin: 0; /* Remove a margem padrão */
+            padding: 0; /* Remove o preenchimento padrão */
+            font-family: Arial, sans-serif; /* Fonte padrão para a página */
+        }
+
+        header, main, footer {
+            text-align: center; /* Centraliza o texto dos elementos header, main e footer */
+            margin: 20px; /* Margem ao redor dos elementos */
+        }
+
+        .galeria-container {
+            display: grid; /* Usa grid para layout de galeria */
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta as colunas automaticamente */
+            gap: 10px; /* Espaço entre as imagens */
+            justify-content: center; /* Centraliza o grid dentro do main */
+            padding: 20px;
+        }
+
+        .imagem-ajustada {
+            width: 100%; /* Faz com que a imagem ocupe toda a largura da célula do grid */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+
+        .meuBotao {
+            background-color: #d400ff; /* Cor de fundo dos botões */
+            color: white; /* Cor do texto dos botões */
+            padding: 15px 32px; /* Espaçamento interno dos botões */
+            text-align: center; /* Alinhamento do texto dentro dos botões */
+            text-decoration: none; /* Remove o sublinhado do texto */
+            display: inline-block; /* Faz o botão se comportar como um botão */
+            font-size: 16px; /* Tamanho da fonte dos botões */
+            margin: 4px 2px; /* Margem ao redor dos botões */
+            cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+            border: none; /* Remove a borda padrão dos botões */
+            border-radius: 5px; /* Bordas arredondadas dos botões */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Marcia Martins</h1> <!-- Título da página -->
+    </header>
+    <main>
+        <div class="galeria-container">
+            <!-- Adicione as imagens aqui -->
+            <img src="img/marcia1.jpg" alt="Descrição da imagem 1" class="imagem-ajustada">
+            <img src="img/marcia2.jpg" alt="Descrição da imagem 2" class="imagem-ajustada">
+            <img src="img/marcia3.jpg" alt="Descrição da imagem 3" class="imagem-ajustada">
+            <img src="img/marcia4.jpg" alt="Descrição da imagem 4" class="imagem-ajustada">
+            <img src="img/marcia5.jpg" alt="Descrição da imagem 5" class="imagem-ajustada">
+            <img src="img/marcia6.jpg" alt="Descrição da imagem 6" class="imagem-ajustada">
+            <img src="img/marcia7.jpg" alt="Descrição da imagem 7" class="imagem-ajustada">
+            <img src="img/marcia8.jpg" alt="Descrição da imagem 8" class="imagem-ajustada">
+            <img src="img/marcia9.jpg" alt="Descrição da imagem 9" class="imagem-ajustada">
+            <img src="img/marcia10.jpg" alt="Descrição da imagem 10" class="imagem-ajustada">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </main>
+    <footer>
+        <!-- Botão para voltar à página principal -->
+        <a href="index.html" class="meuBotao">Voltar para a Página Principal</a>
+    </footer>
+</body>
+</html>

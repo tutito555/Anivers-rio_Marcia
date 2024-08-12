@@ -1,0 +1,54 @@
+body {
+    background-color: blueviolet; /* Cor de fundo da página */
+    color: lightyellow; /* Cor do texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    font: normal 15pt Arial; /* Fonte padrão para a página */
+}
+
+h1, p {
+    text-align: center; /* Centraliza o texto dos elementos h1 e p */
+    margin: 20px 0; /* Margem ao redor dos elementos */
+}
+
+.botao-container {
+    display: flex; /* Usa flexbox para organizar os botões */
+    flex-wrap: wrap; /* Permite que os botões quebrem para a linha seguinte se necessário */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    gap: 10px; /* Espaço entre os botões */
+    margin: 20px 0; /* Margem ao redor dos botões */
+}
+
+.meuBotao {
+    background-color: #d400ff; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    padding: 15px 32px; /* Espaçamento interno dos botões */
+    text-align: center; /* Alinhamento do texto dentro dos botões */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um botão */
+    font-size: 16px; /* Tamanho da fonte dos botões */
+    margin: 4px 2px; /* Margem ao redor dos botões */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 5px; /* Bordas arredondadas dos botões */
+}
+
+.galeria {
+    display: flex; /* Usa flexbox para organizar as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha seguinte se necessário */
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin: 20px 0; /* Margem ao redor da galeria */
+}
+
+.imagem-ajustada {
+    width: 300px; /* Largura das imagens */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas das imagens */
+}
+
+#ap {
+    font-size: xx-small; /* Tamanho da fonte do texto adicional */
+    text-align: center; /* Centraliza o texto */
+    cursor: pointer;
+}

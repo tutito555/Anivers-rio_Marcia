@@ -1,0 +1,58 @@
+body {
+    background-color: blueviolet;
+    color: lightyellow;
+    margin: 0;
+    padding: 0;
+    font: normal 15pt Arial;
+}
+
+
+h1, p {
+    text-align: center; /* Centraliza o texto dos elementos h1 e p */
+    margin: 20px 0; /* Margem ao redor dos elementos */
+}
+
+
+.botao-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os botões */
+    gap: 10px; /* Espaço entre os botões */
+    margin: 20px 0; /* Margem ao redor dos botões */
+}
+
+
+.meuBotao {
+    background-color: #d400ff; /* Cor de fundo roxa */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um botão */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0; /* Margem ao redor da galeria */
+}
+
+
+.imagem-ajustada {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+#ap {font-size: xx-small;
+text-align: center;
+}
