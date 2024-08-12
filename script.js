@@ -25,5 +25,5 @@ galeria.addEventListener("click", function () {
 // Botão Download
 let download = document.getElementById("download");
 download.addEventListener("click", function () {
-    window.open("link do mediafire", "_blank"); // Abre o link de download em uma nova aba
+    window.open("https://www.mediafire.com/file/5joqmvnrpd6bgbt/Aniversario_Marcia_Sem_Imagens.zip/file", "_blank"); // Abre o link de download em uma nova aba
 });
